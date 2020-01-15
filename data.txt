@@ -1,0 +1,47 @@
+FIAT PANDA 2012
+Power: 63KW [~ 85CV]
+Max engine torque: 145Nm
+
+AUDI A4 B9
+Power: 110KW [~ 150CV]
+Max engine torque: 250 NM
+
+=> ERS
+Power: ~ 63KW
+Max engine torque: ~ 200NM
+Max  RPM: 3500 -> T: ~ 171NM
+Best RPM: 3000 -> T: ~ 200NM
+Min  RPM: 2500 -> T: ~ 240NM
+
+=====================================================
+
+GR  = Gear ratio
+TP  = Tire pitch
+S   = Speed
+RPM = Revolutions per minute
+
+=> { S = RPM * GR * TP / 16.66 }
+=> { RPM = (S * 16.666) / (GR * TP) }
+
+=====================================================
+
+PW  = Power (W)
+PI  = PI Greek ~ [3.1415]
+RPM = Revolutions per minute
+T   = Engine torque
+
+=> { T = (PW * 60) / (2*PI*RPM) }
+
+=====================================================
+
+=>
+S -> RPM (-> T) -> SCORE
+
+=====================================================
+     
+_____|_2500__|__3000__|__3500__| RPM
+1/10 | 28.80 | 34.56  | 40.32  |
+1/7  | 41.14 | 49.37  | 57.60  |
+1/5  | 57.60 | 69.12  | 80.64  |
+1/3  | 96.00 | 115.20 | 134.41 |
+GR                               S
